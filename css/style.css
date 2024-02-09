@@ -1,0 +1,925 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 29px;
+    font-family: 'Montserrat';
+}
+
+.da-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.da-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.da-col-4 {
+    width: 33.33%;
+}
+
+.da-col-5 {
+    width: 41.66%;
+}
+
+.da-col-6 {
+    width: 50%;
+}
+
+.da-col-7 {
+    width: 58.33%;
+}
+
+.da-amazing-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.da-head {
+    background-color: #303030;
+    padding: 20px 0;
+}
+
+.da-nav ul {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.da-nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'oswald';
+    font-size: 18px;
+}
+
+.da-nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 25px;
+}
+
+.da-head .da-row {
+    justify-content: space-between;
+}
+
+.da-search {
+    padding-top: 20px;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.da-banner {
+    background: url(../img/black\ shirt\ boy.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 368px;
+    padding-bottom: 80px;
+}
+
+.da-banner-content h1 {
+    font-size: 120px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+.da-banner-content p {
+    font-size: 28px;
+    color: #ffffff;
+    max-width: 605px;
+    line-height: 1.3;
+    padding-bottom: 44px;
+    margin: 0;
+}
+
+.da-banner-button {
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #e8631c;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    padding: 10px 82px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.da-top {
+    background-color: #e8631c;
+    padding-top: 109px;
+    padding-bottom: 64px;
+    /* position: relative;
+    z-index: 1; */
+}
+
+.da-top .da-container {
+    position: relative;
+    z-index: 1;
+}
+
+.da-top-content {
+    text-align: center;
+    position: relative;
+}
+
+.da-dot-image::before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/dots.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: -111px;
+    right: 0;
+    bottom: 0px;
+    left: -75px;
+}
+
+.da-top-content h2 {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 72px;
+    padding-bottom: 32px;
+}
+
+.da-top-content p {
+    max-width: 810px;
+    margin: 0 auto;
+    padding-bottom: 85px;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.da-dot {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.da-gallery {
+    width: 100%;
+}
+
+.da-gallery img {
+    max-width: 100%;
+}
+
+.da-images {
+    background-color: #303030;
+    margin: 0 22px;
+}
+
+.da-disc1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.da-disc1 h2 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 34px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 8px;
+}
+
+.da-disc1 p {
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.da-pricing-main {
+    background-color: #303030;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.da-pricing-head {
+    text-align: center;
+}
+
+.da-pricing-head h2 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 72px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.da-pricing-head p {
+    font-size: 22px;
+    max-width: 618px;
+    margin: 0 auto;
+    padding-bottom: 88px;
+}
+
+.da-card-first {
+    background-color: #e8631c;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    margin: 0 28px;
+}
+
+.da-card-icon img {
+    padding-bottom: 60px;
+}
+
+.da-card-icon h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.da-card-icon p {
+    font-size: 20px;
+    padding-bottom: 35px;
+    padding-top: 28px;
+    margin: 0;
+}
+
+.da-card-icon a {
+    background-color: #303030;
+    text-decoration: none;
+    color: currentColor;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 100px;
+    font-size: 23px;
+    border-radius: 5px;
+}
+
+.da-pricing-main .da-container {
+    position: relative;
+    z-index: 1;
+}
+
+.da-pricing-dots {
+    position: absolute;
+    content: '';
+    background-image: url(../img/left\ dotted2.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: -100px;
+    right: 0;
+    bottom: 0;
+    left: -75px;
+}
+
+.da-amazing-main {
+    background-color: #e8631c;
+}
+
+.da-amazing-top .da-col-6:first-child {
+    background: url(../img/dance1.jpg) center center no-repeat;
+}
+
+.da-amazing-content h2 {
+    margin: 0;
+    font-size: 64px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.da-amazing-content a {
+    text-transform: uppercase;
+    background-color: #303030;
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+    padding: 10px 100px;
+    border-radius: 5px;
+}
+
+.da-amazing-content {
+    padding-bottom: 276px;
+    padding-left: 80px;
+    padding-top: 320px;
+}
+
+.da-amazing-content p {
+    margin: 0;
+    line-height: 1.2;
+    max-width: 420px;
+    font-size: 22px;
+    font-weight: 300;
+    padding-bottom: 90px;
+    padding-top: 60px;
+}
+
+.da-amazing-bottom .da-col-6:last-child {
+    background: url(../img/dance2.jpg)center center no-repeat;
+}
+
+.da-amazing-content.da-amazing-content1 p {
+    max-width: 453px;
+}
+
+.da-Statistics-head {
+    text-align: center;
+}
+
+.da-Statistics-main {
+    background-color: #303030;
+    padding-top: 200px;
+    padding-bottom: 240px;
+}
+
+.da-Statistics-main h2 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+    font-size: 65px;
+}
+
+.da-Statistics-main p {
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 550px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.da-counter {
+    text-align: center;
+}
+
+.da-counter h3 {
+    font-size: 65px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.da-counter {
+    font-size: 38px;
+}
+
+.da-Herbert-main {
+    background: url(../img/Dancelast.jpg)center center no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 340px;
+    padding-bottom: 340px;
+}
+
+.da-Herbert-contain {
+    text-align: center;
+}
+
+.da-Herbert-contain p {
+    padding-bottom: 80px;
+    max-width: 1130px;
+    margin: 0 auto;
+    font-size: 55px;
+}
+
+.da-Herbert-contain h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.da-subscribe-main {
+    background: url(../img/dotsbt.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 126px;
+    padding-bottom: 160px;
+}
+
+.da-subscribed-contain {
+    text-align: center;
+}
+
+.da-subscribed-contain h3 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 65px;
+    padding-bottom: 60px;
+}
+
+.da-subscribed-contain p {
+    max-width: 938px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.da-subscribe-form {
+    text-align: center;
+}
+
+#email {
+    font-size: 19px;
+    padding: 20px 30px;
+    border: none;
+    width: 60%;
+    position: relative;
+}
+
+#submit {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 16px 54px;
+    background-color: #303030;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    margin-left: -219px;
+}
+
+.da-musicology-footer {
+    background-color: #303030;
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+.da-musicology-footer h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.da-btm-left p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 403px;
+    padding: 24px 0;
+}
+
+.da-btm-abt ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 24px;
+}
+
+.da-btm-abt ul li {
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.da-btm-service ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 24px;
+}
+
+.da-btm-service ul li {
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.da-icon-btm a{
+    text-decoration: none;
+}
+.da-btm-other ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 24px;
+}
+
+.da-btm-other ul li {
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .da-container {
+        max-width: 940px;
+    }
+
+    .da-banner {
+        padding-top: 222px;
+    }
+
+    .da-banner-content h1 {
+        font-size: 100px;
+    }
+
+    .da-banner-content p {
+        font-size: 24px;
+    }
+
+    .da-gallery img {
+        height: auto;
+    }
+
+    .da-amazing-content {
+        padding-bottom: 200px;
+        padding-top: 200px;
+    }
+
+    .da-card-icon a {
+        padding: 10px 85px;
+    }
+
+    .da-amazing-content {
+        padding-left: 30px;
+    }
+
+    .da-Herbert-contain p {
+        font-size: 45px;
+        padding-bottom: 25px;
+    }
+
+    .da-Herbert-main {
+        padding-top: 220px;
+        padding-bottom: 220px;
+    }
+
+    .da-btm-left p {
+        max-width: 364px;
+        font-size: 18px;
+    }
+
+    .da-btm-abt ul li {
+        font-size: 18px;
+    }
+
+    .da-btm-service ul li {
+        font-size: 18px;
+    }
+
+    .da-btm-other ul li {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .da-container {
+        max-width: 710px;
+    }
+
+    .da-nav ul {
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .da-banner {
+        padding-top: 150px;
+    }
+
+    .da-banner-content h1 {
+        font-size: 85px;
+    }
+
+    .da-banner-content p {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .da-top {
+        padding-top: 68px;
+        padding-bottom: 68px;
+    }
+
+    .da-top-content h2 {
+        font-size: 50px;
+        padding-bottom: 8px;
+    }
+
+    .da-top-content p {
+        max-width: 580px;
+        font-size: 22px;
+        padding-bottom: 48px;
+    }
+
+    .da-dot-image::before {
+        top: -75px;
+    }
+
+    .da-images {
+        margin: 0 10px;
+    }
+
+    .da-disc1 p {
+        font-size: 16px;
+    }
+
+    .da-disc1 h2 {
+        font-size: 30px;
+    }
+
+    .da-pricing-main {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    .da-pricing-dots {
+        top: -69px;
+    }
+
+    .da-pricing-head h2 {
+        font-size: 50px;
+    }
+
+    .da-pricing-head p {
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+
+    .da-card-first {
+        margin: 0 10px;
+        padding-top: 38px;
+        padding-bottom: 20px;
+    }
+
+    .da-card-icon a {
+        font-size: 16px;
+        padding: 8px 65px;
+    }
+
+    .da-card-icon img {
+        padding-bottom: 10px;
+    }
+
+    .da-card-icon p {
+        padding-bottom: 21px;
+        padding-top: 8px;
+        font-size: 16px;
+    }
+
+    .da-card-icon h2 {
+        font-size: 28px;
+    }
+
+    .da-amazing-content h2 {
+        font-size: 40px;
+    }
+
+    .da-amazing-content p {
+        font-size: 20px;
+        padding-bottom: 30px;
+        padding-top: 18px;
+    }
+
+    .da-amazing-content a {
+        display: inline-block;
+        font-size: 16px;
+        padding: 8px 65px;
+    }
+
+    .da-amazing-content {
+        padding-bottom: 145px;
+        padding-top: 145px;
+    }
+
+    .da-Statistics-main {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    .da-Statistics-main h2 {
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .da-Statistics-main p {
+        padding-bottom: 70px;
+    }
+
+    .da-counter h3 {
+        font-size: 40px;
+    }
+
+    .da-counter {
+        font-size: 25px;
+    }
+
+    .da-Herbert-contain p {
+        font-size: 30px;
+    }
+
+    .da-Herbert-contain h3 {
+        font-size: 40px;
+    }
+
+    .da-Herbert-main {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .da-subscribed-contain h3 {
+        font-size: 40px;
+        padding-bottom: 33px;
+    }
+
+    .da-subscribed-contain p {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .da-subscribe-main {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    .da-musicology-footer {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    .da-musicology-footer h3 {
+        font-size: 20px;
+    }
+
+    .da-btm-left p {
+        max-width: 287px;
+        font-size: 15px;
+    }
+
+    .da-btm-abt ul li {
+        font-size: 15px;
+    }
+
+    .da-btm-service ul li {
+        font-size: 15px;
+    }
+
+    .da-btm-other ul li {
+        font-size: 15px;
+    }
+
+    #email {
+        font-size: 17px;
+        padding: 12px 20px;
+    }
+
+    #submit {
+        margin-left: -164px;
+        font-size: 22px;
+        padding: 10px 45px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .da-container {
+        max-width: 260px;
+    }
+
+    .da-search {
+        display: none;
+    }
+
+    .da-banner-content h1 {
+        font-size: 55px;
+    }
+
+    .da-banner {
+        padding-top: 80px;
+    }
+
+    .da-banner-content p {
+        font-size: 18px;
+    }
+
+    .da-banner-button {
+        font-size: 18px;
+        padding: 4px 25px;
+    }
+
+    .da-top-content h2 {
+        font-size: 35px;
+        padding-bottom: 5px;
+    }
+
+    .da-top-content p {
+        max-width: 260px;
+        font-size: 18px;
+    }
+
+    .da-images {
+        margin-bottom: 22px;
+    }
+
+    .da-disc1 h2 {
+        font-size: 25px;
+    }
+
+    .da-disc1 p {
+        font-size: 15px;
+    }
+
+    .da-top {
+        padding-bottom: 50px;
+    }
+
+    .da-pricing-head h2 {
+        font-size: 35px;
+    }
+
+    .da-pricing-head p {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .da-pricing-main {
+        padding-top: 50px;
+        padding-bottom: 65px;
+    }
+
+    .da-card-first {
+        margin-bottom: 22px;
+    }
+
+    .da-card-icon h2 {
+        font-size: 25px;
+    }
+    .da-amazing-content h2 {
+        font-size: 32px;
+    }
+    .da-amazing-content p {
+        font-size: 18px;
+        padding-bottom: 22px;
+        padding-top: 15px;
+    }
+    .da-amazing-content {
+        padding-left: 0;
+        text-align: center;
+    }
+    .da-amazing-content.da-amazing-content1 p {
+        max-width: 319px;
+    }
+    .da-amazing-content {
+        padding-bottom: 53px;
+        padding-top: 60px;
+    }
+    .da-Statistics-main h2 {
+        font-size: 35px;
+        padding-bottom: 25px;
+    }
+    .da-Statistics-main p{
+        font-size: 18px;
+    }
+    .da-Statistics-main p {
+        padding-bottom: 50px;
+    }
+    .da-counter h3 {
+        font-size: 31px;
+    }
+    .da-counter {
+        font-size: 20px;
+    }
+    .da-counter span{
+        padding-bottom: 20px;
+        display: block;
+    }
+    .da-Herbert-contain p {
+        font-size: 20px;
+    }
+    .da-Herbert-contain h3 {
+        font-size: 30px;
+    }
+    .da-Herbert-main {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .da-subscribed-contain h3 {
+        font-size: 35px;
+        padding-bottom: 25px;
+    }
+    .da-subscribed-contain p {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+    .da-musicology-footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        /* padding-left: 20px; */
+    }
+    .da-musicology-footer h3{
+        padding-top: 25px;
+    }
+    .da-btm-service ul{
+        padding-top: 15px;
+    }
+    .da-btm-left p {
+        max-width: 290px;
+    }
+}
